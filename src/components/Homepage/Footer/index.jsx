@@ -23,9 +23,9 @@ function index () {
             <li>
               <div>
                 <div className={'footer-links'}>
-                  <img src='/assests/components/footer/location.svg' />
+                  <img src='/assests/components/footer/location.svg' alt={'location'}/>
                   <a href='#'>
-                    <a>Where to find us</a>
+                    <a href="#">Where to find us</a>
                   </a>
                 </div>
                 <p className={'footer-links-mg'}>
@@ -37,9 +37,9 @@ function index () {
             <li>
               <div>
                 <div className={'footer-links'}>
-                  <img src='/assests/components/footer/linkedin.svg' />
+                  <img src='/assests/components/footer/linkedin.svg' alt={'linkedin'}/>
                   <a href='#'>Linkedin</a>
-                  <img src='/assests/components/footer/footer-right-arrow.svg' />
+                  <img src='/assests/components/footer/footer-right-arrow.svg' alt={'right-arrow'}/>
                 </div>
               </div>
             </li>
@@ -54,11 +54,11 @@ function index () {
           <li>
             <div>
               <div className={'footer-links'}>
-                <img src='/assests/components/footer/phone.svg' />
+                <img src='/assests/components/footer/phone.svg' alt={'phone'}/>
                 <a href='#'>
-                  <a>Call Us</a>
+                  <a href='#'>Call Us</a>
                 </a>
-                <img src='/assests/components/footer/footer-right-arrow.svg' />
+                <img src='/assests/components/footer/footer-right-arrow.svg' alt={'right-arrow'}/>
               </div>
               <p className={'footer-links-mg'}>+91 9310478032</p>
             </div>
@@ -66,16 +66,16 @@ function index () {
           <li>
             <div>
               <div className={'footer-links'}>
-                <img src='/assests/components/footer/email.svg' />
+                <img src='/assests/components/footer/email.svg' alt={'email'}/>
                 <a href='#'>Email Us</a>
-                <img src='/assests/components/footer/footer-right-arrow.svg' />
+                <img src='/assests/components/footer/footer-right-arrow.svg' alt={'right-arrow'}/>
               </div>
               <p className={'footer-links-mg'}>hello@trezo.in</p>
             </div>
           </li>
           <li>
             <div className={'footer-links'}>
-              <img src='/assests/components/footer/whatsapp.svg' />
+              <img src='/assests/components/footer/whatsapp.svg' alt={'whatsapp'}/>
               <a href='#'>Whatsapp Us</a>
               <img src='/assests/components/footer/footer-right-arrow.svg' />
             </div>

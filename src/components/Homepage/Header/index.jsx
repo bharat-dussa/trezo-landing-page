@@ -8,7 +8,7 @@ function index ({buttontext}) {
       <Navbar>
         <nav>
           <div id='logo'>
-            <a>
+            <a href="/">
               {' '}
               <img src={`/assests/logo/trezo-logo.svg`} alt='trezo logo' />
             </a>
