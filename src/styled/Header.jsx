@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Banner = styled.section`
   @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
   background-image: url('assests/components/banner/banner-hero-image.svg');
-  height: 1024px;
+  height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
   /* box-shadow: 10px 10px 5px #ccc; */
@@ -71,6 +71,7 @@ export const Banner = styled.section`
     align-items: center;
     text-align: center;
     align-content: center;
+    margin: 0px 30px 0px 30px;
   }
   .banner-details > h2 {
     font-family: Quattrocento;
@@ -108,7 +109,7 @@ export const Banner = styled.section`
   }
   
   @media screen and (min-width: 769px) {
-    height:110vh;
+    height:120vh;
     nav {
     display: flex;
     width: 90%;
@@ -130,6 +131,27 @@ export const Banner = styled.section`
     }
     .banner-details > h2 {
       font-size: 60px;
+    }
+    .banner-details > p{
+      margin-left:130px;
+      margin-right:130px;
+    }
+  }
+  @media screen and (min-width:1280px){
+    height:110vh;
+    .banner-details{
+      margin:0% 12%;
+    }
+    .banner-details > h2 {
+      font-size:70px;
+      margin-left:0px;
+      margin-right:0px;
+    }
+  }
+  @media screen and (min-width:1486px) {
+    /* height:100vh; */
+    .banner-details > h2 {
+      font-size:90px;
     }
   }
 `

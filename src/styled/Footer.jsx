@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const Footer = styled('footer')`
+export const Footer = styled("footer")`
   padding: 28px 20px 0px 6px;
   line-height: 14px;
   display: flex;
@@ -8,16 +8,19 @@ export const Footer = styled('footer')`
   background-color: #182a34;
   color: white;
   font-family: "Montserrat", sans-serif;
-    margin-top:100px;
+  margin-top: 100px;
   .footer-main-links {
     line-height: 1.8rem;
-    margin-right:-100px;
+    margin-right: 0px;
   }
   ul li {
     list-style: none;
     font-weight: 400;
     letter-spacing: 0.6px;
     cursor: pointer;
+  }
+  .mr-t{
+    margin-top:10px;
   }
   ul li a {
     list-style: none;
@@ -51,21 +54,27 @@ export const Footer = styled('footer')`
     align-items: center;
   }
   .footer-links a {
-    margin: 0px 14px 0px 14px;
+    margin: 0px 14px 0px 0px;
   }
   .footer-links-mg {
     margin-left: 40px;
   }
+  div .mg-r img {
+    padding-right:14px;
+  }
   @media screen and (min-width: 768px) {
-    padding:40px;
-    justify-content:space-between;
+    padding: 40px;
+    justify-content: space-between;
     .about-trezo p {
       font-size: 12px;
       letter-spacing: 0px;
       line-height: 1rem;
     }
+    .footer-main-links {
+    line-height: 1.8rem;
+    margin-right: -100px;
+  }
     .col div {
-    
+    }
   }
-  }
-`
+`;

@@ -18,10 +18,10 @@ function index ({buttontext}) {
         </nav>
       </Navbar>
       <div className={'banner-details'}>
-        <h2>REAL ESTATE INVESTMENTS MADE ACCESSIBLE</h2>
+        <h2>REAL ESTATE <br/>INVESTMENTS <br/>MADE ACCESSIBLE</h2>
         <p>
           Trezo enables you to buy loan-free fractions of income-generating
-          properties with friends and like-minded co-owners
+          <br />properties with friends and like-minded co-owners
         </p>
         <button className='banner-btn'>
           <img src='assests/components/down-arrow.svg' alt='down arrow' />

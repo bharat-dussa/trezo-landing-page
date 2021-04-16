@@ -15,10 +15,10 @@ function index () {
           </ul>
           <ul className='footer-main-links'>
             <li>Privacy Policy</li>
-            <li>Terms and Conditions</li>
+            <li className={'mr-t'}>Terms and Conditions</li>
           </ul>
         </div>
-        <div className='col'>
+        <div className='col mg-r'>
           <ul>
             <li>
               <div>
@@ -50,7 +50,7 @@ function index () {
         <ul></ul>
       </div> */}
       <div className='col'>
-        <ul>
+        <ul className='mg-r'>
           <li>
             <div>
               <div className={'footer-links'}>
