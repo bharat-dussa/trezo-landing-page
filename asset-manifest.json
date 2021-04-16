@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trezo-landing-page/static/css/main.3a6b89be.chunk.css",
+    "main.js": "/trezo-landing-page/static/js/main.4b32da8b.chunk.js",
+    "main.js.map": "/trezo-landing-page/static/js/main.4b32da8b.chunk.js.map",
+    "runtime-main.js": "/trezo-landing-page/static/js/runtime-main.3f3c1ad3.js",
+    "runtime-main.js.map": "/trezo-landing-page/static/js/runtime-main.3f3c1ad3.js.map",
+    "static/js/2.8d844bb3.chunk.js": "/trezo-landing-page/static/js/2.8d844bb3.chunk.js",
+    "static/js/2.8d844bb3.chunk.js.map": "/trezo-landing-page/static/js/2.8d844bb3.chunk.js.map",
+    "static/js/3.933fcdce.chunk.js": "/trezo-landing-page/static/js/3.933fcdce.chunk.js",
+    "static/js/3.933fcdce.chunk.js.map": "/trezo-landing-page/static/js/3.933fcdce.chunk.js.map",
+    "index.html": "/trezo-landing-page/index.html",
+    "static/css/main.3a6b89be.chunk.css.map": "/trezo-landing-page/static/css/main.3a6b89be.chunk.css.map",
+    "static/js/2.8d844bb3.chunk.js.LICENSE.txt": "/trezo-landing-page/static/js/2.8d844bb3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/trezo-landing-page/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f3c1ad3.js",
+    "static/js/2.8d844bb3.chunk.js",
+    "static/css/main.3a6b89be.chunk.css",
+    "static/js/main.4b32da8b.chunk.js"
+  ]
+}
