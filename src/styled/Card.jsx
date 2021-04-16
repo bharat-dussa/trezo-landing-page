@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Card = styled('section')`
-  background-image: url("/assests/components/Card/card-mobile.svg");
+  background-image: url("assests/components/Card/card-mobile.svg");
   height: 760px;
   /* padding:0px 10px 0px 10px; */
   padding:5px;
@@ -38,7 +38,7 @@ export const Card = styled('section')`
     font-weight:399;
   }
   @media screen and (min-width: 768px) {
-    background-image: url("/assests/components/Card/card.svg");
+    background-image: url("assests/components/Card/card.svg");
     /* height: 680px; */
     margin: 2%;
     .section-details h3 {

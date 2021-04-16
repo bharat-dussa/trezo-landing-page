@@ -10,7 +10,7 @@ function index ({buttontext}) {
           <div id='logo'>
             <a href="/">
               {' '}
-              <img src={`/assests/logo/trezo-logo.svg`} alt='trezo logo' />
+              <img src={`assests/logo/trezo-logo.svg`} alt='trezo logo' />
             </a>
           </div>
           {/* <a href="#down"><Button className={'desktop-btn'}>{buttontext}</Button></a> */}
@@ -24,7 +24,7 @@ function index ({buttontext}) {
           properties with friends and like-minded co-owners
         </p>
         <button className='banner-btn'>
-          <img src='/assests/components/down-arrow.svg' alt='down arrow' />
+          <img src='assests/components/down-arrow.svg' alt='down arrow' />
          
         </button>
         <Button className={'mobile-btn'}>{buttontext}</Button>
