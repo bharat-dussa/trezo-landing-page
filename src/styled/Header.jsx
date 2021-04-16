@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Banner = styled.section`
   @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-  background-image: url('https://bharat-dussa.github.io/trezo-landing-page/assests/components/banner/banner-hero-image.svg');
+  background-image: url('/assests/components/banner/banner-hero-image.svg');
   height: 1024px;
   background-repeat: no-repeat;
   background-size: cover;
