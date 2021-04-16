@@ -23,7 +23,7 @@ function index () {
             <li>
               <div>
                 <div className={'footer-links'}>
-                  <img src='/src/assests/components/footer/location.svg' alt={'location'}/>
+                  <img src='/assests/components/footer/location.svg' alt={'location'}/>
                   <a href='#'>
                     <a href="#">Where to find us</a>
                   </a>
