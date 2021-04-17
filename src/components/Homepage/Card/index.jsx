@@ -4,7 +4,7 @@ import { Button } from '../../../styled/Button'
 
 function index ({ title, content, buttontext }) {
   return (
-    <Card id="getearly">
+    <Card id="card-section">
       <div className='section-area'>
         <div className='section-details'>
           <h3>{title}</h3>

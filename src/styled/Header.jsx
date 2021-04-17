@@ -7,6 +7,9 @@ export const Banner = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   /* box-shadow: 10px 10px 5px #ccc; */
+  .link-btn{
+    text-decoration:none;
+  }
   .desktop-btn{
     display:none;
   }

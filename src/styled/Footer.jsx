@@ -77,4 +77,19 @@ export const Footer = styled("footer")`
     .col div {
     }
   }
+  @media screen and  (min-width:280px) and (max-width:371px){
+    div .mg-r img {
+      width:21px;
+      padding-right:5px;
+    }
+    div.mg-r > ul:nth-child(1){
+      padding-left:0px;
+    }
+    .footer-main-links,.col .mg-r{
+      padding-left:10px;
+    }
+    .about-trezo{
+      padding-left:10px;
+    }
+  }
 `;
