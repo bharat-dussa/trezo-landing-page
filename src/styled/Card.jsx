@@ -37,7 +37,7 @@ export const Card = styled('section')`
     font-size:17px;
     letter-spacing:0.5px;
     font-weight:400;
-    margin:25px 15px;
+    margin:25px 20px;
     margin-bottom:40px;
   }
   @media screen and (max-width:768px){
