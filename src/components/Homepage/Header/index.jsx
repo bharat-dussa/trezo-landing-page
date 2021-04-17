@@ -2,7 +2,7 @@ import React from 'react'
 import { Banner, Navbar } from '../../../styled/Header'
 import { Button } from '../../../styled/Button'
 
-function index ({buttontext}) {
+function index ({buttontext,link}) {
   return (
     <Banner className={'banner-image'}>
       <Navbar>
@@ -12,7 +12,7 @@ function index ({buttontext}) {
               <img src={`assests/logo/trezo-logo.svg`} alt='trezo logo' />
             
           </div>
-          <a className={'link-btn'} href="#card-section"><Button className={'desktop-btn'}>{buttontext}</Button></a>
+          <a className={'link-btn'} href={link} target='_blank'><Button className={'desktop-btn'}>{buttontext}</Button></a>
           {/* <Button className={'desktop-btn'}>{buttontext}</Button> */}
         </nav>
       </Navbar>
@@ -26,7 +26,7 @@ function index ({buttontext}) {
           <img src='assests/components/down-arrow.svg' alt='down arrow' />
         </button>
         {/* <Button className={'mobile-btn'}>{buttontext}</Button> */}
-        <a className={'link-btn'} href="#card-section"><Button className={'mobile-btn'}>{buttontext}</Button></a>
+        <a className={'link-btn'} href={link} target='_blank'><Button className={'mobile-btn'}>{buttontext}</Button></a>
       </div>
     </Banner>
   )
