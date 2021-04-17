@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Banner = styled.section`
   @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-  background-image: url('assests/components/banner/banner-hero-image.svg');
-  height: 120vh;
+  background: url('assests/components/banner/banner-hero-image.svg') no-repeat center;
+  max-width:100%;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   /* box-shadow: 10px 10px 5px #ccc; */
@@ -105,14 +106,21 @@ export const Banner = styled.section`
     transition: all 0.5s ease;
     font-weight: 200;
     cursor: pointer;
+    display:none;
   }
   .banner-btn:hover {
     box-shadow: 0px 15px 20px rgba(83, 82, 82, 0.1);
     transform: scale(1.1, 1.1);
   }
-  
+
   @media screen and (min-width: 769px) {
     height:120vh;
+    .banner-btn{
+      display:block;
+    }
+    #break-1 , #break-2 , #break-3 , #break-4 , #break-5{
+      display:none;
+    }
     nav {
     display: flex;
     width: 90%;

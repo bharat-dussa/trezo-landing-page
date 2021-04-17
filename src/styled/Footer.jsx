@@ -19,8 +19,8 @@ export const Footer = styled("footer")`
     letter-spacing: 0.6px;
     cursor: pointer;
   }
-  .mr-t{
-    margin-top:10px;
+  .mr-t {
+    margin-top: 10px;
   }
   ul li a {
     list-style: none;
@@ -60,36 +60,58 @@ export const Footer = styled("footer")`
     margin-left: 40px;
   }
   div .mg-r img {
-    padding-right:14px;
+    padding-right: 14px;
+  }
+  #desktop-linkedin {
+    display: none;
+  }
+  #mobile-linkedin {
+    margin-left: 0px;
+    margin-bottom: 20px;
   }
   @media screen and (min-width: 768px) {
     padding: 40px;
     justify-content: space-between;
+    #mobile-linkedin {
+      display: none;
+    }
+    #desktop-linkedin {
+      display: flex;
+    }
+    div .mg-r > ul:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
     .about-trezo p {
       font-size: 12px;
       letter-spacing: 0px;
       line-height: 1rem;
     }
     .footer-main-links {
-    line-height: 1.8rem;
-    margin-right: -100px;
-  }
+      line-height: 1.8rem;
+      margin-right: -100px;
+    }
     .col div {
     }
   }
-  @media screen and  (min-width:280px) and (max-width:371px){
+  @media screen and (min-width: 280px) and (max-width: 371px) {
     div .mg-r img {
-      width:21px;
-      padding-right:5px;
+      width: 21px;
+      padding-right: 5px;
     }
-    div.mg-r > ul:nth-child(1){
-      padding-left:0px;
+    div.mg-r > ul:nth-child(1) {
+      padding-left: 0px;
     }
-    .footer-main-links,.col .mg-r{
-      padding-left:10px;
+    .footer-main-links,
+    .col .mg-r {
+      padding-left: 10px;
     }
-    .about-trezo{
-      padding-left:10px;
+    .about-trezo {
+      padding-left: 10px;
+    }
+    .about-trezo ul {
+      padding-left: 0px;
     }
   }
 `;

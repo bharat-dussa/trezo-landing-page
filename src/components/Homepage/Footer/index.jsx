@@ -1,34 +1,37 @@
 // import Link from 'next/link'
-import React from 'react'
-import { Footer } from '../../../styled/Footer'
+import React from "react";
+import { Footer } from "../../../styled/Footer";
 
-function index () {
+function index() {
   return (
     <Footer>
-      <div className='col'>
+      <div className="col">
         <div>
-          <ul className='footer-main-links'>
+          <ul className="footer-main-links">
             <li>Properties</li>
             <li>How it Works</li>
             <li>Pricing</li>
             <li>FAQ's</li>
           </ul>
-          <ul className='footer-main-links'>
+          <ul className="footer-main-links">
             <li>Privacy Policy</li>
-            <li className={'mr-t'}>Terms and Conditions</li>
+            <li className={"mr-t"}>Terms and Conditions</li>
           </ul>
         </div>
-        <div className='col mg-r'>
+        <div className="col mg-r">
           <ul>
             <li>
               <div>
-                <div className={'footer-links'}>
-                  <img src='/assests/components/footer/location.svg' alt={'location'}/>
-                  <a href='#'>
+                <div className={"footer-links"}>
+                  <img
+                    src="/assests/components/footer/location.svg"
+                    alt={"location"}
+                  />
+                  <a href="#">
                     <a href="#">Where to find us</a>
                   </a>
                 </div>
-                <p className={'footer-links-mg'}>
+                <p className={"footer-links-mg"}>
                   INVENTO Collaborative Coworking Spaces Plot No. 11 Sector
                   12-A, Dwarka 110078
                 </p>
@@ -36,10 +39,16 @@ function index () {
             </li>
             <li>
               <div>
-                <div className={'footer-links'}>
-                  <img src='assests/components/footer/linkedin.svg' alt={'linkedin'}/>
-                  <a href='#'>Linkedin</a>
-                  <img src='assests/components/footer/footer-right-arrow.svg' alt={'right-arrow'}/>
+                <div className={"footer-links"} id={"desktop-linkedin"}>
+                  <img
+                    src="assests/components/footer/linkedin.svg"
+                    alt={"linkedin"}
+                  />
+                  <a href="#">Linkedin</a>
+                  <img
+                    src="assests/components/footer/footer-right-arrow.svg"
+                    alt={"right-arrow"}
+                  />
                 </div>
               </div>
             </li>
@@ -49,41 +58,63 @@ function index () {
       {/* <div className="col">
         <ul></ul>
       </div> */}
-      <div className='col'>
-        <ul className='mg-r'>
+      <div className="col">
+        <ul className="mg-r">
+          <li>
+            <div className={"footer-links"} id={"mobile-linkedin"}>
+              <img
+                src="assests/components/footer/linkedin.svg"
+                alt={"linkedin"}
+              />
+              <a href="#">Linkedin</a>
+              <img
+                src="assests/components/footer/footer-right-arrow.svg"
+                alt={"right-arrow"}
+              />
+            </div>
+          </li>
           <li>
             <div>
-              <div className={'footer-links'}>
-                <img src='assests/components/footer/phone.svg' alt={'phone'}/>
-                <a href='#'>
-                  <a href='#'>Call Us</a>
+              <div className={"footer-links"}>
+                <img src="assests/components/footer/phone.svg" alt={"phone"} />
+                <a href="#">
+                  <a href="#">Call Us</a>
                 </a>
-                <img src='assests/components/footer/footer-right-arrow.svg' alt={'right-arrow'}/>
+                <img
+                  src="assests/components/footer/footer-right-arrow.svg"
+                  alt={"right-arrow"}
+                />
               </div>
-              <p className={'footer-links-mg'}>+91 9310478032</p>
+              <p className={"footer-links-mg"}>+91 9310478032</p>
             </div>
           </li>
           <li>
             <div>
-              <div className={'footer-links'}>
-                <img src='assests/components/footer/email.svg' alt={'email'}/>
-                <a href='#'>Email Us</a>
-                <img src='assests/components/footer/footer-right-arrow.svg' alt={'right-arrow'}/>
+              <div className={"footer-links"}>
+                <img src="assests/components/footer/email.svg" alt={"email"} />
+                <a href="#">Email Us</a>
+                <img
+                  src="assests/components/footer/footer-right-arrow.svg"
+                  alt={"right-arrow"}
+                />
               </div>
-              <p className={'footer-links-mg'}>hello@trezo.in</p>
+              <p className={"footer-links-mg"}>hello@trezo.in</p>
             </div>
           </li>
           <li>
-            <div className={'footer-links'}>
-              <img src='assests/components/footer/whatsapp.svg' alt={'whatsapp'}/>
-              <a href='#'>Whatsapp Us</a>
-              <img src='assests/components/footer/footer-right-arrow.svg' />
+            <div className={"footer-links"}>
+              <img
+                src="assests/components/footer/whatsapp.svg"
+                alt={"whatsapp"}
+              />
+              <a href="#">Whatsapp Us</a>
+              <img src="assests/components/footer/footer-right-arrow.svg" />
             </div>
           </li>
         </ul>
       </div>
 
-      <div className='about-trezo'>
+      <div className="about-trezo">
         <ul>
           <li>
             <p>
@@ -117,7 +148,7 @@ function index () {
         </ul>
       </div>
     </Footer>
-  )
+  );
 }
 
-export default index
+export default index;
