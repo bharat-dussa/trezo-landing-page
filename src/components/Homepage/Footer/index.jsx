@@ -98,7 +98,7 @@ function index() {
                   alt={"right-arrow"}
                 />
               </div>
-              <p className={"footer-links-mg"}>hello@trezo.in</p>
+              <p className={"footer-links-mg"}>info@trezo.in</p>
             </div>
           </li>
           <li>
