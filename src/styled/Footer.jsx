@@ -69,6 +69,20 @@ export const Footer = styled("footer")`
     margin-left: 0px;
     margin-bottom: 20px;
   }
+  .love-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-weight:normal;
+  }
+  .flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:7%;
+    margin-bottom:0%;
+  }
   @media screen and (min-width: 768px) {
     padding: 40px;
     justify-content: space-between;
@@ -113,5 +127,8 @@ export const Footer = styled("footer")`
     .about-trezo ul {
       padding-left: 0px;
     }
+  }
+  @media screen and (min-width:768px) and (max-width:1260px){
+    justify-content:space-between !important;
   }
 `;
