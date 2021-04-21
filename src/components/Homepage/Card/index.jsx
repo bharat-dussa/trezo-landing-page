@@ -10,7 +10,7 @@ function index ({ title, content, buttontext, link }) {
           <h3>{title}</h3>
           <p>{content}</p>
           {/* <button className="general-btn">See how it works</button> */}
-          <a className={'link-btn'} href={link} target='_blank'><Button className={'desktop-btn'}>{buttontext}</Button></a>
+          <a className={'link-btn'} href={link} rel="noreferrer" target='_blank'><Button className={'desktop-btn'}>{buttontext}</Button></a>
         </div>
       </div>
     </Card>

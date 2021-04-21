@@ -12,7 +12,7 @@ function index ({buttontext,link}) {
               <img src={`assests/logo/trezo-logo.svg`} alt='trezo logo' />
             
           </div>
-          <a className={'link-btn'} href={link} target='_blank'><Button className={'desktop-btn'}>{buttontext}</Button></a>
+          <a className={'link-btn'} href={link} rel="noreferrer" target='_blank'><Button className={'desktop-btn'}>{buttontext}</Button></a>
           {/* <Button className={'desktop-btn'}>{buttontext}</Button> */}
         </nav>
       </Navbar>
@@ -26,7 +26,7 @@ function index ({buttontext,link}) {
           <img src='assests/components/down-arrow.svg' alt='down arrow' />
         </button>
         {/* <Button className={'mobile-btn'}>{buttontext}</Button> */}
-        <a className={'link-btn'} href={link} target='_blank'><Button className={'mobile-btn'}>{buttontext}</Button></a>
+        <a className={'link-btn'} href={link} rel="noreferrer" target='_blank'><Button className={'mobile-btn'}>{buttontext}</Button></a>
       </div>
     </Banner>
   )
