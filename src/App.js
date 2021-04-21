@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Header from '../src/components/Homepage/Header'
 import Card from '../src/components/Homepage/Card'
 import Footer from '../src/components/Homepage/Footer'
