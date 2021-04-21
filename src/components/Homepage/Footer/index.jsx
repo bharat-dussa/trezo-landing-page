@@ -27,8 +27,8 @@ function index() {
                     src="/assests/components/footer/location.svg"
                     alt={"location"}
                   />
-                  <a href="#">
-                    <a href="#">Where to find us</a>
+                  <a href="/blank">
+                    <a href="/blank">Where to find us</a>
                   </a>
                 </div>
                 <p className={"footer-links-mg"}>
@@ -44,7 +44,7 @@ function index() {
                     src="/assests/components/footer/linkedin-logo.png"
                     alt={"linkedin"}
                   />
-                  <a href="#">Linkedin</a>
+                  <a href="/blank">Linkedin</a>
                   <img
                     src="assests/components/footer/footer-right-arrow.svg"
                     alt={"right-arrow"}
@@ -66,7 +66,7 @@ function index() {
                 src="assests/components/footer/linkedin.svg"
                 alt={"linkedin"}
               />
-              <a href="#">Linkedin</a>
+              <a href="/blank">Linkedin</a>
               <img
                 src="assests/components/footer/footer-right-arrow.svg"
                 alt={"right-arrow"}
@@ -77,8 +77,8 @@ function index() {
             <div>
               <div className={"footer-links"}>
                 <img src="assests/components/footer/phone.svg" alt={"phone"} />
-                <a href="#">
-                  <a href="#">Call Us</a>
+                <a href="/blank">
+                  <a href="/blank">Call Us</a>
                 </a>
                 <img
                   src="assests/components/footer/footer-right-arrow.svg"
@@ -92,7 +92,7 @@ function index() {
             <div>
               <div className={"footer-links"}>
                 <img src="assests/components/footer/email.svg" alt={"email"} />
-                <a href="#">Email Us</a>
+                <a href="/blank">Email Us</a>
                 <img
                   src="assests/components/footer/footer-right-arrow.svg"
                   alt={"right-arrow"}
@@ -107,8 +107,8 @@ function index() {
                 src="assests/components/footer/whatsapp.svg"
                 alt={"whatsapp"}
               />
-              <a href="#">Whatsapp Us</a>
-              <img src="assests/components/footer/footer-right-arrow.svg" />
+              <a href="/blank">Whatsapp Us</a>
+              <img src="assests/components/footer/footer-right-arrow.svg" alt='right-arrow'/>
             </div>
           </li>
         </ul>
@@ -147,7 +147,7 @@ function index() {
           </li>
           <li className={'flex'}>
             <div className={"love-container"}>
-              <a href={"https://farziengineer.com/"} target={"_blank"}>
+              <a href={"https://farziengineer.com/"} rel="noreferrer" target={"_blank"}>
                 Made with love ❤️ by FarziEngineer
               </a>
             </div>
