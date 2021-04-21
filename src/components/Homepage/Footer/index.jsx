@@ -41,7 +41,7 @@ function index() {
               <div>
                 <div className={"footer-links"} id={"desktop-linkedin"}>
                   <img
-                    src="assests/components/footer/linkedin.svg"
+                    src="/assests/components/footer/linkedin-logo.png"
                     alt={"linkedin"}
                   />
                   <a href="#">Linkedin</a>
