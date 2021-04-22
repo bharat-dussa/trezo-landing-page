@@ -3,6 +3,7 @@ import React from "react";
 import { Footer } from "../../../styled/Footer";
 
 function index() {
+  const location = `https://www.google.com/maps/place/Invento+Coworking+Office+Dwarka/@28.5963168,77.0393278,17z/data=!3m1!4b1!4m5!3m4!1s0x390d1b41ab2b4b27:0xdf70632e3b3ccc41!8m2!3d28.5963121!4d77.0415165`;
   return (
     <Footer>
       <div className="col">
@@ -21,21 +22,25 @@ function index() {
         <div className="col mg-r">
           <ul>
             <li>
-              <div>
-                <div className={"footer-links"}>
-                  <img
-                    src="/assests/components/footer/location.svg"
-                    alt={"location"}
-                  />
-                  <a href="/blank">
-                    <a href="/blank">Where to find us</a>
-                  </a>
+              <a href={location} target="_blank" rel="noreferrer">
+                <div>
+                  <div className={"footer-links"}>
+                    <img
+                      src="/assests/components/footer/location.svg"
+                      alt={"location"}
+                    />
+                    <a href={location} target="_blank" rel="noreferrer">
+                      <a href={location} target="_blank" rel="noreferrer">
+                        Where to find us
+                      </a>
+                    </a>
+                  </div>
+                  <p className={"footer-links-mg"}>
+                    INVENTO Collaborative Coworking Spaces Plot No. 11 Sector
+                    12-A, Dwarka 110078
+                  </p>
                 </div>
-                <p className={"footer-links-mg"}>
-                  INVENTO Collaborative Coworking Spaces Plot No. 11 Sector
-                  12-A, Dwarka 110078
-                </p>
-              </div>
+              </a>
             </li>
             <li>
               <div>
@@ -74,32 +79,42 @@ function index() {
             </div>
           </li>
           <li>
-            <div>
-              <div className={"footer-links"}>
-                <img src="assests/components/footer/phone.svg" alt={"phone"} />
-                <a href="/blank">
-                  <a href="/blank">Call Us</a>
-                </a>
-                <img
-                  src="assests/components/footer/footer-right-arrow.svg"
-                  alt={"right-arrow"}
-                />
+            <a href="tel:+919310478032">
+              <div>
+                <div className={"footer-links"}>
+                  <img
+                    src="assests/components/footer/phone.svg"
+                    alt={"phone"}
+                  />
+                  <a href="tel:+919310478032">
+                    <a href="tel:+919310478032">Call Us</a>
+                  </a>
+                  <img
+                    src="assests/components/footer/footer-right-arrow.svg"
+                    alt={"right-arrow"}
+                  />
+                </div>
+                <p className={"footer-links-mg"}>+91 9310478032</p>
               </div>
-              <p className={"footer-links-mg"}>+91 9310478032</p>
-            </div>
+            </a>
           </li>
           <li>
-            <div>
-              <div className={"footer-links"}>
-                <img src="assests/components/footer/email.svg" alt={"email"} />
-                <a href="/blank">Email Us</a>
-                <img
-                  src="assests/components/footer/footer-right-arrow.svg"
-                  alt={"right-arrow"}
-                />
+            <a href="mailto:info@trezo.com">
+              <div>
+                <div className={"footer-links"}>
+                  <img
+                    src="assests/components/footer/email.svg"
+                    alt={"email"}
+                  />
+                  <a href="mailto:info@trezo.com">Email Us</a>
+                  <img
+                    src="assests/components/footer/footer-right-arrow.svg"
+                    alt={"right-arrow"}
+                  />
+                </div>
+                <p className={"footer-links-mg"}>info@trezo.in</p>
               </div>
-              <p className={"footer-links-mg"}>info@trezo.in</p>
-            </div>
+            </a>
           </li>
           <li>
             <div className={"footer-links"}>
@@ -107,8 +122,10 @@ function index() {
                 src="assests/components/footer/whatsapp.svg"
                 alt={"whatsapp"}
               />
-              <a href="/blank">Whatsapp Us</a>
-              <img src="assests/components/footer/footer-right-arrow.svg" alt='right-arrow'/>
+              <a href="whatsapp://send?text=Hi,Trezo Team, would you like to discuss ? &phone=+919310478032">
+                Whatsapp Us
+              </a>
+              <img src="assests/components/footer/footer-right-arrow.svg" alt={'right-arrow'}/>
             </div>
           </li>
         </ul>
@@ -145,13 +162,17 @@ function index() {
           <li>
             <p> © Theek Property Management Technologies Pvt Ltd, 2020. </p>
           </li>
-          <li className={'flex'}>
+          {/* <li className={"flex"}>
             <div className={"love-container"}>
-              <a href={"https://farziengineer.com/"} rel="noreferrer" target={"_blank"}>
+              <a
+                href={"https://farziengineer.com/"}
+                rel="noreferrer"
+                target={"_blank"}
+              >
                 Made with love ❤️ by FarziEngineer
               </a>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </Footer>

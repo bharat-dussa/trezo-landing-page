@@ -9,6 +9,9 @@ export const Footer = styled("footer")`
   color: white;
   font-family: "Montserrat", sans-serif;
   margin-top: 100px;
+  .footer-links-mg{
+    font-weight:lighter;
+  }
   .footer-main-links {
     line-height: 1.8rem;
     margin-right: 0px;
