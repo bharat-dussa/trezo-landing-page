@@ -162,17 +162,17 @@ function index() {
           <li>
             <p> © Theek Property Management Technologies Pvt Ltd, 2020. </p>
           </li>
-          {/* <li className={"flex"}>
+          <li className={"flex"}>
             <div className={"love-container"}>
               <a
                 href={"https://farziengineer.com/"}
                 rel="noreferrer"
                 target={"_blank"}
               >
-                Made with love ❤️ by FarziEngineer
+                By FarziEngineer
               </a>
             </div>
-          </li> */}
+          </li>
         </ul>
       </div>
     </Footer>

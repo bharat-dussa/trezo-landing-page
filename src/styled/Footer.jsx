@@ -81,13 +81,13 @@ export const Footer = styled("footer")`
   }
   .flex{
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
     align-items:center;
-    margin-top:7%;
+    margin-top:40px;
     margin-bottom:0%;
   }
   @media screen and (min-width: 768px) {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     justify-content: space-between;
     #mobile-linkedin {
       display: none;
